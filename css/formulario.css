@@ -115,6 +115,7 @@ p
 {
   cursor: pointer;
 }
+/*RESPONSIVIDADE PARA MOBILE*/
 @media (min-width: 359px) and (max-width: 415px)
 {
   form
@@ -152,11 +153,11 @@ p
   }
   .container-opcao
   {
-    margin-bottom: 30px;
+    margin-bottom: 23px;
   }
   .campoTexto
   {
-    margin-bottom: 39.5px;
+    margin-bottom: 32px;
   }
   #campoDeSugestao
   {
@@ -172,5 +173,55 @@ p
   .container p
   {
     font-size: 07pt;
+  }
+}
+/*RESPONSIVIDADE PARA TABLETS IPAD AIR/ IPAD MINI/ SURFACE PRO 7*/
+@media (min-width: 767px) and (max-width: 912px)
+{
+  form
+  {
+    width: 100%;
+  }
+  .container-opcao
+  {
+    margin-bottom: 30px;
+  }
+  .campoTexto
+  {
+    margin-bottom: 60px;
+  }
+  #campoDeSugestao
+  {
+    height: 35px;
+    margin-bottom: 0px;
+  }
+}
+/*RESPONSIVIDADE PARA TABLET SURFACE DUO*/
+@media (min-width: 539px) and (max-width: 767px)
+{
+  form
+  {
+    width: 100%;
+  }
+  #coluna-1
+  {
+    margin: 0px;
+  }
+  #coluna-2
+  {
+    margin: 0px;
+  }
+  .container-opcao
+  {
+    margin-bottom: 10px;
+  }
+  .campoTexto
+  {
+    margin-bottom: 22px;
+  }
+  #campoDeSugestao
+  {
+    height: 35px;
+    margin-bottom: 0px;
   }
 }
