@@ -133,11 +133,11 @@ p
   }
   #coluna-1
   {
-    margin: 0px;
+    margin-right: 05px;
   }
   #coluna-2
   {
-    margin: 0px;
+    margin-left: 05px;
   }
   .labelInputRadio
   {
