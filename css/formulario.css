@@ -88,10 +88,15 @@ form
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .inputRadio
 {
   margin-bottom: 10px;
+}
+.labelInputRadio
+{
   font-family: 'Open Sans', sans-serif;
 }
 p
