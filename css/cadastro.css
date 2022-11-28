@@ -120,3 +120,57 @@ form
   border-radius: 6px;
   color: white;
 }
+/*RESPONSIVIDADE PARA MOBILE*/
+@media (min-width: 359px) and (max-width: 415px)
+{
+  form
+  {
+    width: 100%;
+  }
+  .box
+  {
+    width: 93%;
+  }
+  #logoUnifesspa
+  {
+    width: 100px;
+  }
+  .cabecalho h3
+  {
+    font-size: 07pt;
+  }
+  .titulosBox
+  {
+    font-size: 08pt;
+  }
+  .campoInput
+  {
+    font-size: 07pt;
+    height: 15px;
+  }
+  .botao
+  {
+    width: 30%;
+    font-size: 07pt;
+  }
+  .labelSexo
+  {
+    font-size: 07pt;
+  }
+  p
+  {
+    font-size: 07pt;
+  }
+  #labelDataNascimento
+  {
+    font-size: 07pt;
+  }
+  .inputBox
+  {
+    font-size: 07pt;
+  }
+  #estado
+  {
+    font-size: 07pt;
+  }
+}
