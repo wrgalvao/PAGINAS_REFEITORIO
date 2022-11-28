@@ -64,6 +64,7 @@ form
 {
   font-family: 'Open Sans', sans-serif;
 }
+/*RESPONSIVIDADE PARA MOBILE*/
 @media (min-width: 359px) and (max-width: 415px)
 {
   .box-login
