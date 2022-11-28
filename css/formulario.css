@@ -111,3 +111,60 @@ p
 {
   cursor: pointer;
 }
+@media (min-width: 359px) and (max-width: 415px)
+{
+  form
+  {
+    width: 100%;
+  }
+  #logoUnifesspa
+  {
+    width: 100px;
+  }
+  .cabecalho h3
+  {
+    font-size: 07pt;
+  }
+  #coluna-1
+  {
+    margin: 0px;
+  }
+  #coluna-2
+  {
+    margin: 0px;
+  }
+  .labelInputRadio
+  {
+    font-size: 07pt;
+  }
+  .tituloInputRadio
+  {
+    font-size: 07pt;
+  }
+  #titulo-container
+  {
+    font-size: 07pt;
+  }
+  .container-opcao
+  {
+    margin-bottom: 30px;
+  }
+  .campoTexto
+  {
+    margin-bottom: 39px;
+  }
+  #campoDeSugestao
+  {
+    height: 30px;
+    margin-bottom: 0px;
+  }
+  .botao
+  {
+    width: 25%;
+    margin-top: 0px;
+  }
+  .container p
+  {
+    font-size: 07pt;
+  }
+}
