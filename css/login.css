@@ -4,15 +4,15 @@ body
 {
   font-family: 'Open Sans', sans-serif;
   background-color: white;
+  height: 100vh;
 }
-
 .box-login
 {
-  background-color: rgba(217,217,217,1);
-  position: absolute;
-  top: 50%;
+  position: relative;
   left: 50%;
-  transform: translate(-50%,-20%);
+  transform: translate(-50%, 30%);
+  width: 180px;
+  background-color: rgba(217,217,217,1);
   padding: 50px;
   border-radius: 40px;
   width: 260px;
@@ -49,7 +49,7 @@ img#LOGO
 {
   position: relative;
   left: 50%;
-  transform: translate(-55%, 30%);
+  transform: translate(-50%, 50%);
   width: 180px;
 }
 .botao:hover
@@ -66,23 +66,16 @@ form
 }
 @media (min-width: 359px) and (max-width: 415px)
 {
-    .box-login
-    {
-      width: 200px;
-    }
-    .botao
-    {
-      font-size: 07pt;
-    }
-    .campoInput
-    {
-      font-size: 07pt;
-    }
-    img#LOGO
-    {
-      position: relative;
-      left: 50%;
-      transform: translate(-50%, 60%);
-      width: 180px;
-    }
+  .box-login
+  {
+    width: 60%;
+  }
+  .campoInput
+  {
+    font-size: 07pt;
+  }
+  .botao
+  {
+    font-size: 07pt;
+  }
 }
