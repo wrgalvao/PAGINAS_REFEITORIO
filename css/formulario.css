@@ -120,6 +120,7 @@ p
   }
   #logoUnifesspa
   {
+    transform: translate(-50%, -0%);
     width: 100px;
   }
   .cabecalho h3
@@ -163,6 +164,7 @@ p
   {
     width: 25%;
     margin-top: 0px;
+    transform: translate(-50%, 0%);
   }
   .container p
   {
