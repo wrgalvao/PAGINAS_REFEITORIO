@@ -173,4 +173,8 @@ form
   {
     font-size: 07pt;
   }
+  .labelInputRadio
+  {
+    text-align: center;
+  }
 }
