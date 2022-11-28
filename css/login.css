@@ -64,3 +64,25 @@ form
 {
   font-family: 'Open Sans', sans-serif;
 }
+@media (min-width: 359px) and (max-width: 415px)
+{
+    .box-login
+    {
+      width: 200px;
+    }
+    .botao
+    {
+      font-size: 07pt;
+    }
+    .campoInput
+    {
+      font-size: 07pt;
+    }
+    img#LOGO
+    {
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 60%);
+      width: 180px;
+    }
+}
