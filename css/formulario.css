@@ -3,17 +3,19 @@
 {
   position: relative;
   left: 50%;
-  transform: translate(-63%, -0%);
+  transform: translate(-74%, -0%);
   width: 120px;
 }
 #coluna-1
 {
-  margin-right: 40px;
+  width: 50%;
+  /*margin-right: 40px;*/
 
 }
 #coluna-2
 {
-  margin-left: 40px;
+  width: 50%;
+  /*margin-left: 40px;*/
 
 }
 .cabecalho
@@ -54,7 +56,7 @@ form
 {
   position: relative;
   left: 47%;
-  transform: translate(-58%, 0%);
+  transform: translate(-50%, 0%);
   width: 250px;
   background-color: rgba(120,191,58,1);
   padding: 10px;
@@ -124,7 +126,7 @@ p
   }
   #logoUnifesspa
   {
-    transform: translate(-63%, -0%);
+    transform: translate(-50%, -0%);
     width: 100px;
   }
   .cabecalho h3
@@ -133,11 +135,11 @@ p
   }
   #coluna-1
   {
-    margin-right: 0px;
+    margin-right: 5px;
   }
   #coluna-2
   {
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .labelInputRadio
   {
@@ -162,13 +164,14 @@ p
   #campoDeSugestao
   {
     height: 30px;
+    width: 160px;
     margin-bottom: 0px;
   }
   .botao
   {
     width: 25%;
     margin-top: 0px;
-    transform: translate(-50%, 0%);
+    transform: translate(-40%, 0%);
   }
   .container p
   {
@@ -223,5 +226,14 @@ p
   {
     height: 35px;
     margin-bottom: 0px;
+  }
+  #logoUnifesspa
+  {
+    transform: translate(-50%, -0%); 
+  }
+  .botao
+  {
+    width: 25%;
+    transform: translate(-35%, -0%);
   }
 }
